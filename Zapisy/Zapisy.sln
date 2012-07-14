@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Zapisy", "Zapisy", "{61AA12F8-C467-4982-8205-A305C3978293}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Zapisy"
+		Debug.AspNetCompiler.PhysicalPath = "Zapisy\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Zapisy\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Zapisy"
+		Release.AspNetCompiler.PhysicalPath = "Zapisy\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Zapisy\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5335"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Providers", "MembershipProviderCSharp\Providers.csproj", "{9B3B311F-92DD-4FB1-BB62-1395670E5F01}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs28
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MembershipProviderCSharp\\Providers.csproj
+		SccProjectName1 = MembershipProviderCSharp
+		SccLocalPath1 = MembershipProviderCSharp
+		SccWebProject2 = true
+		SccProjectUniqueName2 = Zapisy
+		SccProjectName2 = Zapisy
+		SccLocalPath2 = Zapisy
+		SccProjectEnlistmentChoice2 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AA12F8-C467-4982-8205-A305C3978293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AA12F8-C467-4982-8205-A305C3978293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AA12F8-C467-4982-8205-A305C3978293}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AA12F8-C467-4982-8205-A305C3978293}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9B3B311F-92DD-4FB1-BB62-1395670E5F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3B311F-92DD-4FB1-BB62-1395670E5F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3B311F-92DD-4FB1-BB62-1395670E5F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3B311F-92DD-4FB1-BB62-1395670E5F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

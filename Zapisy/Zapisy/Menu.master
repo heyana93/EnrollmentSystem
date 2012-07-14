@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LoginPanel.master" AutoEventWireup="true"
+    CodeFile="Menu.master.cs" Inherits="Menu" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="menuPanel" runat="Server">
+    <h3>
+        Menu</h3>
+    <ul class="MenuTree">
+        <asp:TreeView ID="TreeView1" runat="server" ImageSet="Msdn" 
+            DataSourceID="SiteMapDataSource1" ExpandDepth="1">
+        </asp:TreeView>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server"  ShowStartingNode="false"/>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mainContent" runat="Server">
+    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

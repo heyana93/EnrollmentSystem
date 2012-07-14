@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.master" AutoEventWireup="true" CodeFile="LoginPanel.master.cs"
+    Inherits="LoginPanel" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="loginPanel" runat="Server">
+    <h3>
+        Logowanie</h3>
+    <ul class="center">
+        <asp:Label ID="Name" runat="server" Visible="false" Text=""></asp:Label>
+        <asp:LoginView ID="LoginView1" runat="server">
+            <AnonymousTemplate>
+                <asp:Login ID="Login" runat="server" FailureText="Wprowadzono błędne dane!" LoginButtonText="Zaloguj"
+                    PasswordLabelText="Hasło:" PasswordRequiredErrorMessage="Hasło jest wymagane!"
+                    RememberMeText="Zapamietaj mnie" TextLayout="TextOnTop" TitleText="" UserNameLabelText="Użytkownik:"
+                    UserNameRequiredErrorMessage="Użytkownik jest wymagany!">
+                    <LabelStyle CssClass="loginPanel" />
+                    <FailureTextStyle CssClass="FailureStyle" />
+                </asp:Login>
+            </AnonymousTemplate>
+            <LoggedInTemplate>
+                <br>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Zaloguj" LogoutText="Wyloguj"
+                    LogoutAction="RedirectToLoginPage" />
+            </LoggedInTemplate>
+        </asp:LoginView>
+        <div id="showDate" runat="server" visible="false">
+            <br />
+            Termin zapisów:<br />
+            <asp:Label ID="Date"  runat="server" Visible="false" Text="" Font-Bold="True"></asp:Label>
+        </div>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="menuPanel" runat="Server">
+    <asp:ContentPlaceHolder ID="menuPanel" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="mainContent" runat="Server">
+    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

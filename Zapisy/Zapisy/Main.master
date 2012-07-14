@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>SYSTEM ZAPISÓW</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="~/Styles/Print.css" rel="stylesheet" type="text/css" media="print" />
+</head>
+<body>
+    <form runat="server">
+    <div id="wrapper">
+        <header>
+            <br>
+            <h1>
+                System zapisów</h1>                
+            <h2>
+                dla większości uczelni to sfera marzeń - my je zrealizowaliśmy!</h2>
+        </header>
+        <section id="main">
+            <aside id="sidebar1">
+                <div class="asidebox">
+                <!-- login panel -->
+                    <asp:ContentPlaceHolder ID="loginPanel" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="asidebox">
+                <!-- menu panel -->
+                    <asp:ContentPlaceHolder ID="menuPanel" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </aside>
+            <section id="content">
+			<!-- main content of the page -->
+               <asp:ContentPlaceHolder ID="mainContent" runat="server">
+               </asp:ContentPlaceHolder>			
+			</section>
+        </section>
+        <footer>
+            <section id="footer-area">
+                <section id="footer-outer-block">
+                    <aside class="footer-segment">
+                        <br>
+                        <h4>
+                            <b>All rights reserved.</b>
+                            Copyright &copy; 2010 <a href="#">System zapisów</a> by J. Jędryszek & M. Korżel.</h4>                                                      
+                    </aside>
+                </section>
+            </section>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>
+<!-- Free template created by http://freehtml5templates.com -->

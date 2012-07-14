@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home" roles="*" >
+    <siteMapNode title="Aktualności" url="~/Default.aspx" roles="*"/>
+
+    <siteMapNode title="Administrator" roles="admin">
+      <siteMapNode title="Wiadomości" url="~/Admin/News/News.aspx" roles="*"/>
+      <siteMapNode title="Użytkownicy" url="~/Admin/Users/Users.aspx" roles="*"/>
+      <siteMapNode title="Kwalifikacje" url="~/Admin/Qual/Qual.aspx" roles="*">
+        <siteMapNode title="Prowadzący" url="~/Admin/Qual/InstrInQual.aspx" roles="*"/>
+        <siteMapNode title="Kursy" url="~/Admin/Qual/CourseInQual.aspx" roles="*"/>
+      </siteMapNode>
+      <siteMapNode title="Budynki" url="~/Admin/Buildings/Buildings.aspx" roles="*"/>
+      <siteMapNode title="Kursy" url="~/Admin/Courses/Courses.aspx" roles="*">
+        <siteMapNode title="Terminy" url="~/Admin/Terms/Terms.aspx" roles="*"/>
+      </siteMapNode>
+      <siteMapNode title="Termin zapisów" url="~/Admin/Terms/Generate.aspx" roles="*"/>
+    </siteMapNode>
+
+    <siteMapNode title="Student" roles="student">
+      <siteMapNode title="Kursy" url="~/Student/Terms/Terms.aspx" roles="*"/>
+      <siteMapNode title="Zapisy" url="~/Student/Terms/MyTerms.aspx" roles="*"/>
+      <siteMapNode title="Profil" url="~/Student/MyProfile.aspx" roles="*"/>
+    </siteMapNode>
+
+
+
+    <siteMapNode title="Prowadzący" roles="instructor">
+      <siteMapNode title="Kursy" url="~/Instructor/MyTerms.aspx" roles="*"/>
+      <siteMapNode title="Profil" url="~/Instructor/MyProfile.aspx" roles="*"/>  
+    </siteMapNode>
+
+
+    <siteMapNode title="Kontakt" url="~/Contact.aspx" roles="*"/>
+  </siteMapNode>
+</siteMap>

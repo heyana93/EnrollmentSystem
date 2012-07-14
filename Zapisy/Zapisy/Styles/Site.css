@@ -1,0 +1,510 @@
+﻿/* Created by http://freehtml5templates.com */
+
+/* reset */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article
+{
+    display: block;
+}
+
+body
+{
+    background: #fff url('../Images/bg1.gif') repeat;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* layout */
+
+#wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 2px 2px 7px #555;
+    -moz-box-shadow: 2px 2px 7px #555;
+}
+
+nav
+{
+    width: 940px;
+    height: 50px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header
+{
+    width: 940px;
+    height: 130px;
+    margin: 0 auto;
+    background: #fff url('../Images/header.jpg') no-repeat left top;
+    text-align: right;
+}
+
+#main
+{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: #FFF;
+    overflow: hidden;
+}
+
+#content
+{
+    float: left;
+    width: 650px;
+    margin-left: 40px;
+}
+
+#sidebar1
+{
+    float: left;
+    padding-left: 20px;
+    width: 200px;
+}
+
+footer
+{
+    width: 940px;
+    margin: 0 auto;
+    clear: both;
+}
+
+/* basics */
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: bold;
+    clear: both;
+    color: #333;
+}
+
+a:link, a:visited
+{
+    color: #577695;
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+    color: #333;
+    text-decoration: underline;
+}
+
+p
+{
+    margin-bottom: 18px;
+}
+
+li
+{
+    padding-left: 5px;
+}
+
+/* nav */
+
+nav .menu
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav .menu ul
+{
+    margin: 0;
+    padding: 17px 0 0 20px;
+    list-style: none;
+    line-height: normal;
+}
+
+nav .menu li
+{
+    display: block;
+    float: left;
+}
+
+nav .menu a
+{
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #bbb;
+}
+
+nav .menu a:hover
+{
+    text-decoration: underline;
+}
+
+/** HEADER */
+
+header h1, header h2
+{
+    margin: 0;
+    padding: 0 0 0 50px;
+    line-height: normal;
+}
+
+header h1
+{
+    float: left;
+    padding-top: 10px;
+    padding-left: 570px;
+    font-family: "Helvetica Neue" , Trebuchet MS, Georgia, Times, "Times New Roman" , serif;
+    font-size: 35px;
+    color: #666;
+}
+
+header h1 a:link, header h1 a:visited
+{
+    text-decoration: none;
+}
+
+header h1 a:hover
+{
+    text-decoration: underline;
+}
+
+.shine
+{
+    color: #F1B814;
+}
+
+header h2
+{
+    padding-top: 10px;
+    padding-right: 20px;
+    font-style: italic;
+    font-size: 14px;
+    color: #aaa;
+    height: 17px;
+}
+
+/** ARTICLES **/
+
+article
+{
+    margin-left: 15px;
+}
+
+article img
+{
+    border: none; /*-webkit-box-shadow: 3px 3px 7px #777; 	-moz-box-shadow: 3px 3px 7px #777;8*/
+}
+
+#content p, ul, ol, hr
+{
+    margin-bottom: 24px;
+}
+
+#content ul ul, ol ol, ul ol, ol ul
+{
+    margin-bottom: 0;
+}
+
+#content h1, h2, h3, h4, h5, h6
+{
+    color: #333;
+    margin: 0 0 20px 0;
+    line-height: 1.5em; /*text-shadow: 0px 2px 3px #ddd;*/
+}
+
+.alignleft, img.alignleft
+{
+    display: inline;
+    float: left;
+    margin-right: 24px;
+    margin-top: 4px;
+}
+
+.alignright, img.alignright
+{
+    display: inline;
+    float: right;
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+.aligncenter, img.aligncenter
+{
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.alignleft, img.alignright, img.aligncenter
+{
+    margin-bottom: 12px;
+}
+
+/* sidebar and footer widget blocks */
+
+.asidebox
+{
+    width: 180px;
+    -o-border-image: url('../Images/boxborder.gif') 27 27 27 27 round round;
+    -icab-border-image: url('../Images/boxborder.gif') 27 27 27 27 round round;
+    -khtml-border-image: url('../Images/boxborder.gif') 27 27 27 27 round round;
+    -moz-border-image: url('../Images/boxborder.gif') 27 27 27 27 round round;
+    -webkit-border-image: url('../Images/boxborder.gif') 27 27 27 27 round round; /*border-image: url('../Images/boxborder.gif') 27 27 27 27 round round;*/
+    border: 10px solid #eee;
+    margin-bottom: 30px;
+}
+
+aside h3
+{
+    font-size: 18px; /*text-shadow: 0px 2px 3px #ddd;*/
+    padding-left: 10px;
+    margin-bottom: 25px;
+    color: #777;
+    border-bottom: 1px #ddd dotted;
+    height: 26px;
+}
+
+aside ul
+{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    padding-left: 10px;
+}
+
+#footer-area
+{
+    background: #eee;
+    color: #333;
+    font-size: 90%;
+    overflow: hidden;
+}
+
+.footer-segment
+{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 940px;
+}
+
+footer aside h4
+{
+    color: #777;
+    font-size: 12px;
+    line-height: 0.5em;
+    text-align: center;
+    font-weight: normal; /*text-shadow: 0px 2px 3px #ddd;*/
+}
+
+footer a:link, footer a:visited
+{
+    color: #577695;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+footer p
+{
+    margin-top: -15px;
+    color: #333;
+}
+
+.loginPanelError
+{
+    color: #666;
+}
+
+.GridViewStyle
+{
+    border: 1px none #DEDFDE;
+    padding: 4px;
+    background-color: #BEBEBE;
+}
+
+.GridViewStyle a
+{
+    color: White;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.GridViewFooterStyle
+{
+    color: #BEBEBE;
+    text-align: center;
+}
+
+.GridViewRowStyle
+{
+    background-color: #D1D1D1;
+    font-size: 12px;
+}
+
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+    border: 1px solid White;
+    text-align: center;
+}
+
+.GridViewHeaderStyle
+{
+    background-color: #BEBEBE;
+    font-weight: bold;
+    color: White;
+    font-size: 12px;
+}
+
+.GridViewAlternatingRowStyle
+{
+    background-color: #DFDFDF;
+    font-size: 12px;
+}
+
+.GridViewPagerStyle
+{
+    background-color: #BEBEBE;
+    color: White;
+}
+
+.GridViewPagerStyle table
+{
+    margin: 0 auto 0 auto;
+}
+
+.GridViewSortedAscendingCellStyle
+{
+    background-color: #848384;
+}
+
+.GridViewSortedAscendingHeaderStyle
+{
+    background-color: #848384;
+}
+
+.GridViewSortedDescendingCellStyle
+{
+    background-color: #EAEAD3;
+}
+
+.GridViewSortedDescendingHeaderStyle
+{
+    background-color: #575357;
+}
+
+.CalendarStyle
+{
+    padding: 4px;
+    margin: 10px 0px 0px 0px;
+    border-color: #999999;
+    border-width: 2px;
+    font-family: Verdana;
+    font-size: 8px;
+    color: Black;
+    width: 200px;
+    height: 180px;
+    background-color: White;
+}
+
+.CalendarDayHeaderStyle
+{
+    font-weight: bold;
+    font-size: 7px;
+    background-color: #CCCCCC;
+}
+
+.CalendarNextPrevStyle
+{
+    vertical-align: bottom;
+}
+
+.CalendarOtherMonthDayStyle
+{
+    color: #808080;
+}
+
+.CalendarSelectedDayStyle
+{
+    font-weight: bold;
+    color: White;
+    background-color: #666666;
+}
+
+.CalendarSelectorStyle
+{
+    background-color: #CCCCCC;
+}
+
+.CalendarTitleStyle
+{
+    border-color: Black;
+    font-weight: bold;
+    background-color: #999999;
+}
+
+.CalendarTodayDayStyle
+{
+    color: Black;
+    background-color: #CCCCCC;
+}
+
+.CalendarWeekendDayStyle
+{
+    background-color: #E8EAEC;
+}
+
+.MenuTree
+{
+    margin-bottom: 20px;
+    margin-top: -25px;
+}
+
+.FailureStyle
+{
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: x-small;
+    vertical-align: top;
+    text-align: center;
+    color: #FF0000;
+}
+
+.UpdateControl
+{
+    padding: 4px;
+    border: 1px solid #4A4D4A;
+    background-color: #BEBEBE;
+}
+
+/* News */
+
+h2.news-title
+{
+    margin-bottom: 0px;
+}
+
+.news-date
+{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+p.news-message
+{
+    text-align: justify;
+}
